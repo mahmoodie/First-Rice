@@ -13,3 +13,9 @@ Things Required:
 - sxhkd
 - fastfetch
 - Thunar
+
+How to install:
+- git clone https://github.com/mahmoodie/First-Rice.git
+- cd First-Rice
+- chmod +x install.sh
+- ./install.sh
