@@ -15,7 +15,8 @@ Things Required:
 - Thunar
 
 How to install:
-- git clone https://github.com/mahmoodie/First-Rice.git
-- cd First-Rice
-- chmod +x install.sh
-- ./install.sh
+- install git if you don't have it already: sudo pacman -S git
+- clone the repo: git clone https://github.com/mahmoodie/First-Rice.git
+- change directory into the newly cloned repo: cd First-Rice
+- make the install.sh file executable: chmod +x install.sh
+- run the install.sh file: ./install.sh
