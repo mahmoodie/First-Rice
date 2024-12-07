@@ -1,7 +1,7 @@
 yes | sudo pacman -Syu
 yes | sudo pacman -S thunar firefox bspwm polybar picom rofi kitty fish nitrogen sxhkd fastfetch
 cd $HOME/First-Rice/dotfiles
-mv bspwm fastfetch fish kitty kitty-bak neofetch picom polybar rofi sxhkd nitrogen $HOME/.config
+mv -f bspwm fastfetch fish kitty kitty-bak neofetch picom polybar rofi sxhkd nitrogen $HOME/.config
 cd
 cd $HOME/.config/bspwm
 chmod +x bspwmrc
